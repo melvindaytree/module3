@@ -75,12 +75,22 @@ var currYear = 2016;
 var birthYear = 1996;
 console.log("year is " + currYear + ". My birth year is " + birthYear);
 
+var p3 = document.createElement("p");
+var txtFour = "year is " + currYear + ". My birth year is " + birthYear;
+p3.innerHTML = txtFour;
+first.appendChild(p3);
+
 /** 11) Create a variable for the difference between the current year and your birth
 * year. Log that variable: "The difference between {currentyear} and {birthyear} is 
 * {difference}."**/
 
 var diff = currYear - birthYear;
 console.log("The difference between " + currYear + " and " + birthYear + " is " +diff );
+
+var p4 = document.createElement("p");
+var txtFive = "The difference between " + currYear + " and " + birthYear + " is " +diff;
+p4.innerHTML = txtFive;
+first.appendChild(p4);
 
 
 /* 12) Based on this calcuation, you could be one of two ages. Use math to create 
@@ -89,7 +99,14 @@ console.log("The difference between " + currYear + " and " + birthYear + " is " 
 */ 
 var other = 19;
 console.log("I could be " + diff + " or " + other + " years old");
+
+var p5 = document.createElement("p");
+var txtSix = "I could be " + diff + " or " + other + " years old";
+p5.innerHTML = txtSix;
+first.appendChild(p5);
+
 /**
+
 * 13) Finally, based on the Module 3 readings, tell me the ways in which
 * functions would have made this exercise easier. Log it.
 **/ 
