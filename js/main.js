@@ -98,7 +98,7 @@ first.appendChild(p4);
 * {difference} or {otherage} years old."
 */ 
 var other = 19;
-console.log("I could be " + diff + " or " + other + " years old");
+console.log("I could be " + diff + " or " + diff - 1 + " years old");
 
 var p5 = document.createElement("p");
 var txtSix = "I could be " + diff + " or " + other + " years old";
